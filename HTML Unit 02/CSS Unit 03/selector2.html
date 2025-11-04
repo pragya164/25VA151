@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+       div p{
+        color: brown;
+       }
+       .box > p{
+        background-color:blue;
+       }
+       div~ p{
+        color:blueviolet;
+       }
+       a:hover{
+        color: brown;
+        font-size:20px;
+       }
+       a:active{
+        color: blueviolet ;
+       }
+       a:link{
+        text-decoration: none; font-size: larger;
+       }
+       ul {
+           list-style:none; display: flex;
+       }
+       ul li{
+        margin: 20px; border-right: 1px solid #999;
+        padding-right: 20px;
+       }
+       ul li:hover{
+        color:blue;
+       }
+       ul li:nth-child(5){
+        border-right: 0px;
+       }
+
+       .para{
+        color: blue;
+       }
+       
+       .para::first-letter{
+        background-color: aqua;
+       }
+       .para::after{
+        content: "Read more";
+        color: #f04;
+        font-size: 20px;
+       }
+    </style>
+</head>
+<body>
+    <!--CSS Combinators-->
+<div class="box">
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem beatae molestias numquam id magni dignissimos, doloribus corporis pariatur ab excepturi natus eum odio. Nihil magni quidem, possimus voluptate quisquam quas?
+    </p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quod sint. Provident culpa asperiores quisquam quaerat modi iusto! Aperiam reiciendis totam recusandae excepturi debitis modi natus sequi a fugiat alias.</p>
+    </div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio necessitatibus ex repellat maiores obcaecati unde corporis omnis, voluptates, rerum magni dignissimos, molestias delectus aliquam quis facere consequuntur architecto aperiam odit.</p>
+<a href="">Visit this link</a>
+<ul>
+    <li>home</li>
+    <li>services</li>
+    <li>about</li>
+    <li>gallery</li>
+    <li>contact</li>
+
+    <!--CSS Pseudo elementd: style a specific part  of an elements-->
+    <p> class="box"
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis voluptatem quis quas nobis cupiditate quisquam doloribus? Culpa doloribus, maiores consequatur aut provident distinctio sequi, omnis, maxime eos quidem facilis aliquam.
+
+    </p>
+</ul>
+</body>
+</html>
