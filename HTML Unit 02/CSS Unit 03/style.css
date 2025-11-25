@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    background-image: url('body_bkg.jpg');
+    background-position:top left ;
+    background-repeat: repeat-x;
+    
+}
+p{
+    font-family: arial;
+    font-size: 30px;
+    color: #f04;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 10px #FFF;
+    clear:both;
+}
+#para{
+    color: rgb(35, 65, 90);
+    display: inline-block;
+}

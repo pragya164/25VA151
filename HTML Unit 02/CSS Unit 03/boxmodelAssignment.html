@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model Assignment </title>
+    <style>
+        body,*{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        html,*{
+             margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #main{
+            width: 900px;
+            height: 400px;
+            background-color: burlywood;
+            margin: 0 auto;
+            border: 5px solid #000;
+            display: flex;
+        }
+        #left{
+            width: 300px;
+            height: 400px;
+            background-color: palegreen;
+            margin-right:50px;
+        }
+        #right{
+            width: 550px;
+            height: 390px;
+            background-color: rgb(227, 129, 162);
+        }
+        .rgt_box{
+             width: 100px;
+            height: 175px;
+            background-color: pink;
+        }
+        .rgt_box:nth-child(1){
+            margin-bottom: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--main box-->
+    <div id="main">
+        <!--left box-->
+        <div id="left"></div>
+        <!--right box-->
+        <div id="right"></div>
+        <div id=".rgt_box"></div>
+        <div id=".rgt_box:nth -child"></div>
+
+    <!--main box end-->
+ 
+</body>
+</html>
