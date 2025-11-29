@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        .container {
+            width: 90%;
+            border: 2px solid #333;
+            margin: 30px auto;
+        }
+
+        .header {
+            background-color: lightgray;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .header span {
+            font-size: 22px;
+        }
+
+        .header .red {
+            color: red;
+        }
+
+        /* Top blue menu */
+        .top-menu a {
+            display: inline-block;
+            background: #c9e6ff;
+            padding: 5px 20px;
+            margin: 5px;
+            text-decoration: none;
+            color: #000;
+            font-size: 17px;
+        }
+
+        /* Bottom green menu */
+        .bottom-menu a {
+            float: left;
+            background: #c9fcc9;
+            padding: 5px 20px;
+            margin: 5px;
+            text-decoration: none;
+            color: #000;
+            font-size: 17px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    
+    <div class="header">
+        <span>My <span class="red">Website</span> Navigation</span>
+    </div>
+
+    <!-- Top Menu (inline-block example) -->
+    <div class="top-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Bottom Menu (float example) -->
+    <div class="bottom-menu">
+        <a href="#">Dashboard</a>
+        <a href="#">Profile</a>
+        <a href="#">Messages</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <!-- Clear float -->
+    <div class="clearfix"></div>
+
+</div>
+
+</body>
+</html>

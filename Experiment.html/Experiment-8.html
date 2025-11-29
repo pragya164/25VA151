@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student profile card</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 700px;
+            height: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            gap: 20px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding: 20px;
+            
+        
+        }
+        .box{
+            background-color: lavender;
+            border-radius: 8px;
+            width: 220px;
+            text-align: center;
+            padding: 16px;
+            box-shadow: 1px 1px 5px #999;
+        }
+        .circle{
+            width: 60px;
+            height: 60px;
+            background-color: blue;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            line-height: 60px;
+            margin: 0 auto;
+         
+        }
+        p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 align="center">
+        Students profile card
+    </h2>
+    <p>Three student profile cards arrenged in a row, aligned at the center of the page</p>
+    <div class="container">
+        <div class="box">
+            <div class="circle">PS</div>
+            <div>Pragya Singh</div>
+            <div>B.Tech-CSE</div>
+            <div>Roll NO:2025B01010817</div>
+            <div>1st year</div>
+
+        </div>
+        <div class="box">
+            <div class="circle">MS</div>
+            <div>Manshi Singh</div>
+            <div>B.Tech-AIML</div>
+            <div>Roll No:2025B01004532</div>
+            <div>1st year</div>
+        </div>
+        <div class="box">
+            <div class="circle">PP</div>
+            <div>Prachi Pandey</div>
+            <div>B.Tech-CSE</div>
+            <div>Roll No:2025B01011036</div>
+            <div>1st year</div>
+        </div>
+    </div>
+
+</body>
+</html>
