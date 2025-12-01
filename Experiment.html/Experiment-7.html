@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            border: 2px solid black;
+            margin: 30px auto;
+        }
+
+        .header {
+            background-color: lightgray;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .header span {
+            font-size: 22px;
+        }
+
+        .header .red {
+            color: red;
+        }
+
+        .top-menu a {
+            display: inline-block;
+            background: lightblue;
+            padding: 5px 20px;
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+        }
+
+        .bottom-menu a {
+            float: left;
+            background: #c9fcc9;
+            padding: 5px 20px;
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    
+    <div class="header">
+        <span>My <span class="red">Website</span> Navigation</span>
+    </div>
+
+    <div class="top-menu">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+    </div>
+
+    <div class="bottom-menu">
+        <a href="">Dashboard</a>
+        <a href="">Profile</a>
+        <a href="">Messages</a>
+        <a href="">Logout</a>
+    </div>
+
+    <div class="clearfix"></div>
+
+</div>
+
+</body>
+</html>
