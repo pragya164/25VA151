@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS style</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            display: grid;
+            grid-template-rows: 80px 50px 150px 300px 90px;
+            gap: 10px;
+            text-align: center;
+        }
+        .box{
+            background-color: dimgrey;
+        }
+        .box04{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+        }
+        .side{
+           background-color: dimgray
+        }
+        .body{
+            background-color: dimgray;
+        }
+       
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box"><h2>Logo</h2></div>
+        <div class="box"><h2>Navigation</h2></div>
+        <div class="box"><h2>Header</h2></div>
+        <div class="box04">
+            <div class="side"><h2>side bar</h2></div>
+            <div class="body"><h2>body area</h2></div>
+        </div>
+        <div class="box"><h2>footer</h2></div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 90%;
+            text-align: center;
+            border: 2px solid #000;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            padding: 5px;
+            
+        }
+        .header{
+            padding: 10px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 10px;
+            
+        }
+        .product{
+          width: 350px;
+          background-color: gold;
+          margin: 40px auto;
+          border: 1px solid rgb(90, 43, 43);
+          border-radius: 6px;
+          padding: 5px;
+        }
+        .product img{
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .tittle{
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .name{
+            font-size: 15px;
+        }
+        .price{
+            font-size: 20px;
+            color: blue;
+        }
+        .maxprice{
+            color:  darkgray;
+            font-size: 18px;
+            text-decoration: line-through;
+        }
+        button{
+            width: 100%;
+            margin: 0 auto;
+            padding: 12px;
+            background-color: royalblue;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ShopEase</h1>
+        </div>
+        <div class="Product">
+            <img src="https://bluberyl.in/cdn/shop/files/Black_Front.png?v=1726822168" alt="T-Short" height="400px" >
+            <div class="tittle">Classic cotton t-shirt</div>
+            <div class="name">Soft, breathable cotton. Regular fit available in multiple colors</div>
+            <span class="price">₹799</span> 
+            <span class="maxprice">₹1199</span> <br>
+            <button>Add to Cart</button>
+            
+        </div>
+
+    </div>
+</body>
+</html>
