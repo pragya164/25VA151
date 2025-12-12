@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Responsive Product Grid</title>
+<style>
+body{
+margin: 0; 
+padding :0;
+}
+
+
+html,*{
+margin: 0; 
+padding :0;
+}
+h2 {
+ text-align: center;
+ margin-bottom: 20px;
+ }
+
+.grid {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr); 
+ gap: 20px;
+}
+.box{
+ background: wheat;
+ border-radius: 8px;
+ padding: 16px;
+ text-align: center;
+}
+.box img {
+ width: 100%;
+ height: 150px;
+ border-radius: 6px;
+ margin-bottom: 10px;
+ }
+
+
+
+</style>
+</head>
+<body>
+<h2>Respondive Product grid<h2>
+
+<div class="grid"> 
+<div class="box">
+<img src=" " alt="Books ">
+<h3>Product 1</h3>
+<p>Written in easy language </p>
+<p class="price">₹499</p>
+</div>
+<div class="box">
+<img src=" " alt="Pen holder ">
+<h3>Product 2<h3>
+<p>flexible material </p>
+<p class="price">₹299</p>
+</div>
+<div class="box">
+<img src=" " alt="Laptop ">
+<h3>Product 3<h3>
+<p class="price">₹40999</p>
+</div>
+
+</div>
+</body>
+</html>
