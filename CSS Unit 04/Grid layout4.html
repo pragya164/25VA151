@@ -7,36 +7,51 @@
     <style>
         body{
             margin: 0;
-            padding: 0;
+            padding: 10px;
+            background-color: lavender;
+            text-align: center;
         }
-        html,*{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        
         main{
             display: grid;
             grid-template-row: 300px 800px 40px 100px;
             gap: 10px;
-            background-color: darkgrey;
+            
+        }
+        .section {
+            background: gray;
+            padding: 30px;
+            font-size: 24px;
+        }
+        .container{
+            display: flex;
+            gap: 10px;
         }
         .box{
+            flex: 1;
+            background: darkgray;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: bold;
 
-             background-color: paleturquoise;
         }
-
     </style>
 
 </head>
 <body>
     <main>
-        <div class="Box"><h2>Logo</h2></div>
-        <div class="Box"><h2>Header</h2></div>
-        <div class="Box"><h2>Text area</h2></div>
-        <div class="Box"><h2>Box1</h2></div>
-        <div class="Box"><h2>Box2</h2></div>
-        <div class="Box"><h2>Box3</h2></div>
-        <div class="Box"><h2>Header</h2></div>
+        <div class="section"><h2>Logo</h2></div>
+        <div class="section"><h2>Header</h2></div>
+        <div class="section"><h2>Text area</h2></div>
+        <div class="container">
+            <div class="box">Box1</div>
+            <div class="box">Box2</div>
+            <div class="box">Box3</div>
+        </div>
+        <div class="section"><h2>Header</h2></div>
     </main>
 </body>
 </html>
